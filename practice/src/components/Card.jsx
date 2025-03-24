@@ -1,5 +1,6 @@
 import React from 'react'
-import Addcard from './Addcard'
+import Addcard from './Title'
+
 
  const Listentity = () => {
 
