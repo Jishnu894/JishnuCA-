@@ -1,12 +1,13 @@
-import React from'react'
+import React from 'react'
 
-const Title = ({props}) => {
-
+ const Addcard = ({image, description, price}) => {
   return (
-    <div>
-        <h1>{props.Name}</h1>
-        <h2>{props.Title}</h2>
-    </div>
+   <div>
+    <img src={image} alt="product image"/>
+    <p>{description}</p>
+    <p>Price: ${price}</p>
+   </div>
   )
-}   
-export default Title
+}
+
+export default Addcard
